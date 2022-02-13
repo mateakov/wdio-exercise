@@ -34,45 +34,4 @@ describe('Open Mono Website', () => {
         await iterating.scrollIntoView();
         await browser.pause(3000);
     })
-
-
-
-   // it ('')
-
-    // it('Artworks menu button', async () => {
-    //     await browser.url('https://www.anita-kontrec.com/');
-    //     const myButton = await $('a=Artworks');
-    //     await myButton.click();
-    //     const elem = await $('.footer-widgets-outer-wrapper');
-    //     await elem.scrollIntoView();
-    // })
-
-    // it('Artworks hrvatski jezik (Radovi)', async () => {
-    //     await browser.url('https://www.anita-kontrec.com/artworks');
-    //     const myButton = await $('[alt="Hrvatski"]');
-    //     await myButton.click();
-    //     const elem = await $('h1=Radovi');
-    //     await elem.isExisting();
-    // });
-
-    // it('Publikacije menu button', async () => {
-    //     const myButton = await $('a=Publikacije');
-    //     await myButton.click();
-    //     const elem = await $('.wp-block-button__link=PUBLIkacije');
-    //     await elem.scrollIntoView();
-    //     await elem.isExisting();
-    // });
-
-    // it('Opening Image Gallery View opening - O meni', async () => {
-    //     const myButton = await $('a=o meni');
-    //     await myButton.click();
-
-    //     const button2 = await $('.fancybox');
-    //     await button2.click();
-
-    //     const elem = await $('.fancybox-img');
-    //     await elem.isExisting();
-    // });
-
-
 })
