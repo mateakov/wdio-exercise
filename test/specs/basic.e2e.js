@@ -18,7 +18,7 @@ describe('Open Mono Website', () => {
         await Eng.click();
         const arcButton = await $ ('a=See all articles');
         await arcButton.scrollIntoView(); 
-        await browser.pause(2000);        
+        await browser.pause(3000);        
     })
 
     it ('Mono services', async () => {
